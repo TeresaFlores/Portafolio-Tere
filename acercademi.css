@@ -1,0 +1,11 @@
+
+.acerca-de {
+ margin-top: 50px;
+}
+
+.acerca-de img {
+    width: 50%;
+    height: 200px;
+    justify-content: right;
+}
+
