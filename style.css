@@ -1,6 +1,7 @@
 @import url(menu.css);
 @import url(inicio.css);
 @import url(acercademi.css);
+@import url(proyectos.css);
 
 *{
     margin: 0%;
@@ -31,8 +32,9 @@ section {
 }
 
 .proyectos img {
-    width: 45%;
-    height: 180px;
+    width: 60%;
+    height: 170px;
+   
 }
 
 .proyectos .contenedor {
@@ -49,4 +51,7 @@ section {
     width: 60%;
     height: 200px; 
     background-color:	#A0DAD3;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
 }

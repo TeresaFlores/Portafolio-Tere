@@ -3,9 +3,19 @@
  margin-top: 50px;
 }
 
+.acerca-de h2{
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
 .acerca-de img {
     width: 50%;
     height: 200px;
-    justify-content: right;
+    display: block;
+    margin: auto;
 }
 

@@ -1,0 +1,44 @@
+.proyectos h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.md-links,
+.burger-queen  {
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.md-links .contenedor-proyectos,
+.burger-queen .contenedor-proyectos {
+    background-color: #D46FDB;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.data-lovers,
+.red-social{
+    margin-top: 50px;
+    position: relative;
+}
+
+.data-lovers .contenedor,
+.red-social .contenedor {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-30%);
+}
+
+.md-links,
+.burger-queen {
+    margin-top: 50px;
+  
+}
+.md-links .contenedor,
+.burger-queen .contenedor {
+    top: 50%;
+    right: 50%;
+    transform: translateX(35%) translateY(30%);
+}
