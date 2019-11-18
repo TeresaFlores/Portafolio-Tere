@@ -1,55 +1,98 @@
-
-.acerca-de {
- margin-top: 0;
- background: url(../img/cielo5.png) no-repeat;
- width: 100%;
- height: 685px; 
- position: relative;
+.acerca-de{
+  widows: 100%;
+  height: 1150px;
+  margin-top: 0;
+  position: relative;
 }
-.inicio .contenedor{
+.acerca-de img {
+    width: 100%;
+    height:  1150px;
+}
+
+.contenedor-secciones-acerca{
+    width: 100%;
+    height: 1120px;
+    /* background-color: aqua; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-.acerca-de img {
-    width: 100%;
-    height: 665px;
+
+.acerca-de .contenedor{
+    width: 90%;
+    height: 360px;
+    background-color: blueviolet;
+    position: relative;
+    margin-top: 20px;
 }
-.contenedor-acerca-de {
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.acerca-de .contenedor-galeria {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.acerca-de h2{
+h2{
     display: flex;
     justify-content: center;
     font-family: 'Bree Serif', serif;
-    font-size: 30px;
-    color: #d8bd38;
+    font-size: 28px;
+    color: #d8bd38;  
 }
 
 .acerca-de p {
     width: 50%;
     text-align: justify;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
-    transform: translateX(-80%) translateY(-70%);
+    transform: translateX(-80%) translateY(-60%);
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #E2E8E4;
 }
-.acerca-de img {
+.acerca-de .contenedor img {
     width: 60%;
     height: 180px;
     display: block;
     margin-left: 120px;
     margin-top: 140px;
     position: relative;
-    
+
 }
 
+.carta-box {
+    background-color: green; 
+    width: 250px;
+    height: 300px;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    perspective: 1000px;
+    margin-bottom: 30px;
+  }
+
+  .carta img {
+      width: 250px;
+      height: 300px;
+  }
+  .carta-box:hover .carta {
+    transform: rotateY(180deg);
+}
+
+.carta {
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.cara.detras {
+  transform: rotateY(180deg);
+}
