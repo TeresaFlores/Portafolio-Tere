@@ -1,25 +1,96 @@
 .proyectos{
     width: 100%;
-    height: auto;
-    background: url(../img/cielo5.png) no-repeat;
+    height: 1150px;
     position: relative;
-    
-}
 
+}
 .proyectos img {
-    width: 80%;
-    height: 170px;
-   
+    width: 100%;
+    height:  1150px;
 }
 
-.proyectos .contenedor {
+.proyectos .contenedor{
+    width: 100%;
+    height: 1130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.contenedor-proyectos{
+    width: 60%;
+    height: 200px;
+    background-color:	#d18cce;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.md-links .contenedor-proyectos,
+.burger-queen .contenedor-proyectos {
+    display: flex;
+    justify-content: flex-end;
+}
+.md-links,
+.burger-queen {
+    margin-top: 50px;
+}
+
+
+
+.proyectos .contenedor-secciones {
     width: 45%;
-    height: 120px; 
+    height: 120px;
     font-size: 12px;
 }
- 
+.data-lovers .contenedor-secciones,
+.red-social .contenedor-secciones {
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    transform: translateX(-50%) translateY(-60%);
+}
+
+.md-links,
+.burger-queen  {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.md-links .contenedor-secciones,
+.burger-queen .contenedor-secciones {
+    top: 50%;
+    right:20px;
+    transform: translateX(18%) translateY(-5%);
+}
+
+
+.data-lovers,
+.red-social{
+    margin-top: 50px;
+    position: relative;
+}
+
+
+
+.proyectos .contenedor img {
+    width: 80%;
+    height: 170px;
+
+}
+
+.proyectos h1 {
+    display: flex;
+    justify-content: center;
+    color: #d8bd38;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    margin-top: 30px;
+}
+
 .proyectos h5{
-    font-size: 15px; 
+    font-size: 15px;
     color: #d8bd38;
     font-family: 'Alegreya Sans', sans-serif;
 }
@@ -28,64 +99,7 @@
     font-size: 12px;
     text-align: justify;
     color: #E2E8E4;
-}
-
-.contenedor-proyectos{
-    width: 60%;
-    height: 200px; 
-    background-color:	#d18cce;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-}
-
-
-.proyectos h1 {
-    display: flex;
-    justify-content: center;
-    color: #d8bd38;
-    font-size: 30px;
-    font-family: 'Bree Serif', serif;
-}
-
-.md-links,
-.burger-queen  {
-    display: flex;
-    justify-content: flex-start;
-   
-}
-
-.md-links .contenedor-proyectos,
-.burger-queen .contenedor-proyectos {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.data-lovers,
-.red-social{
-    margin-top: 50px;
-    position: relative;
-}
-
-.data-lovers .contenedor,
-.red-social .contenedor {
-    position: absolute;
-    top: 50%;
-    left: 74%;
-    transform: translateX(-50%) translateY(-60%);
-}
-
-.md-links,
-.burger-queen {
-    margin-top: 50px;
-  
-}
-.md-links .contenedor,
-.burger-queen .contenedor {
-    top: 50%;
-    right:20px;
-    transform: translateX(18%) translateY(-5%);
-}
+} 
 
 .link{
 width: 70px;
@@ -97,6 +111,6 @@ text-decoration: none;
 padding: 5px;
 margin-top: 10px;
 border: 2px solid #d8bd38;
-font-family: 'Raleway', sans-serif; 
+font-family: 'Raleway', sans-serif;
 }
 
