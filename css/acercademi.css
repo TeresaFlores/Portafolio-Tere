@@ -22,7 +22,6 @@
 .acerca-de .contenedor{
     width: 90%;
     height: 360px;
-    background-color: blueviolet;
     position: relative;
     margin-top: 20px;
 }
@@ -65,7 +64,7 @@ h2{
 }
 
 .carta-box {
-    background-color: green; 
+    /* background-color: green;  */
     width: 250px;
     height: 300px;
     margin: auto;
@@ -78,6 +77,7 @@ h2{
   .carta img {
       width: 250px;
       height: 300px;
+      border-radius: 8px;
   }
   .carta-box:hover .carta {
     transform: rotateY(180deg);
