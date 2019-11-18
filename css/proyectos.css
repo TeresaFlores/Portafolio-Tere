@@ -1,7 +1,8 @@
 .proyectos{
     width: 100%;
     height: auto;
-    background-color: #021333;
+    background: url(../img/cielo5.png) no-repeat;
+    position: relative;
 }
 
 .proyectos img {
@@ -25,7 +26,6 @@
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
     text-align: justify;
-    /* background-color: #d8bd38; */
     color: #E2E8E4;
 }
 
@@ -45,7 +45,6 @@
     color: #d8bd38;
     font-size: 30px;
     font-family: 'Bree Serif', serif;
-    
 }
 
 .md-links,
@@ -57,7 +56,6 @@
 
 .md-links .contenedor-proyectos,
 .burger-queen .contenedor-proyectos {
-    /* background-color: #006c84; */
     display: flex;
     justify-content: flex-end;
 }
@@ -73,7 +71,7 @@
     position: absolute;
     top: 50%;
     left: 74%;
-    transform: translateX(-50%) translateY(-45%);
+    transform: translateX(-50%) translateY(-60%);
 }
 
 .md-links,
@@ -85,5 +83,18 @@
 .burger-queen .contenedor {
     top: 50%;
     right:20px;
-    transform: translateX(18%) translateY(5%);
+    transform: translateX(18%) translateY(-5%);
+}
+
+.link{
+width: 70px;
+font-size:12px;
+text-align: center;
+display: block;
+color:#d8bd38;
+text-decoration: none;
+padding: 5px;
+margin-top: 10px;
+border: 2px solid #d8bd38;
+font-family: 'Raleway', sans-serif; 
 }

@@ -1,9 +1,8 @@
 .contacto {
     width: 100%;
     height: 665px;
-    background-color: ;
     position: relative;
-    background-color: #006C84;
+    background: url(../img/cielo5.png) no-repeat;
 }
 
 .contenedor-contacto {
