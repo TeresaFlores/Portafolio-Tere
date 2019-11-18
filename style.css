@@ -1,8 +1,9 @@
-@import url(menu.css);
-@import url(inicio.css);
-@import url(acercademi.css);
-@import url(proyectos.css);
-
+@import url(./css/menu.css);
+@import url(./css/inicio.css);
+@import url(./css/acercademi.css);
+@import url(./css/proyectos.css);
+@import url(./css/footer.css);
+@import url(./css/contacto.css);
 /* 
 No me gustan 
 font-family: 'Zilla Slab', serif;
@@ -78,30 +79,4 @@ margin: auto;
 
 section {
     width: 100%;
-    /* margin-bottom:0px;  */
-}
-
-.proyectos img {
-    width: 70%;
-    height: 170px;
-   
-}
-
-.proyectos .contenedor {
-    width: 45%;
-    height: 180px; 
-    font-size: 12px;
-}
- 
-.proyectos h5{
-    font-size: 12px; 
-}
-
-.contenedor-proyectos{
-    width: 60%;
-    height: 200px; 
-    background-color:	#f7e4e6;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
 }

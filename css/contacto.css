@@ -1,0 +1,32 @@
+.contacto {
+    width: 100%;
+    height: 665px;
+    background-color: ;
+    position: relative;
+    background-color: #006C84;
+}
+
+.contenedor-contacto {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%)translateY(-50%);
+    text-align: center;
+}
+.contenedor-contacto img{
+    width: 80px;
+    height:80px;
+}
+.contenedor-contacto h1{
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    color: #d8bd38;
+    margin-bottom: 30px;
+}
+#adorno{
+    width: 220px; 
+    height: 60px;
+    margin-top: 50px;
+}
