@@ -32,15 +32,12 @@
     display: flex;
     justify-content: flex-end;
 }
-.md-links,
-.burger-queen {
-    margin-top: 50px;
-}
+
 
 
 
 .proyectos .contenedor-secciones {
-    width: 45%;
+    width: 40%;
     height: 120px;
     font-size: 12px;
 }
@@ -56,6 +53,7 @@
 .burger-queen  {
     display: flex;
     justify-content: flex-start;
+    margin-top: 50px;
 
 }
 .md-links .contenedor-secciones,
@@ -77,7 +75,6 @@
 .proyectos .contenedor img {
     width: 80%;
     height: 170px;
-
 }
 
 .proyectos h1 {
@@ -112,5 +109,71 @@ padding: 5px;
 margin-top: 10px;
 border: 2px solid #d8bd38;
 font-family: 'Raleway', sans-serif;
+border-radius: 4px;
 }
 
+@media (min-width:1024px) {
+    .proyectos{
+        height: 1500px;
+    }
+   .proyectos .contenedor{
+    width: 80%;
+    height: 1380px;
+    margin: auto;
+   } 
+   .proyectos img {
+    height:  1500px;
+    }
+    .proyectos h1{
+        font-size: 38px;
+    }
+    .contenedor-proyectos{
+        width: 42%;
+        height: 250px;
+        position: relative;
+    }
+
+    .proyectos .red-social img,
+    .proyectos .data-lovers img{
+        width: 55%;
+        height: 85%;
+        position: absolute;
+        transform: translateX(100%) translateY(-0%);
+        border: 7px solid #E2E8E4;
+    }
+    
+    .md-links,
+    .burger-queen  {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .proyectos .md-links img,
+    .proyectos .burger-queen img{
+        width: 55%;
+        height: 85%;
+        position: absolute;
+        transform: translateX(-100%) translateY(-0%);
+        border: 7px solid #E2E8E4;
+    }
+
+    .proyectos .contenedor-secciones {
+        width: 30%;
+        height: 120px;
+        font-size: 12px;
+    }
+
+    .proyectos p {
+        font-size: 17px;
+    } 
+    .proyectos h5{
+        font-size: 19px;
+    }
+
+    .md-links .contenedor-secciones,
+    .burger-queen .contenedor-secciones {
+    transform: translateX(-55%) translateY(25%);
+}
+
+}

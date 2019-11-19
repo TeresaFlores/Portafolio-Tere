@@ -32,3 +32,39 @@
     height: 60px;
     margin-top: 50px;
 }
+
+@media (min-width:1024px) {
+    .contacto {
+        width: 100%;
+        height: 700px; 
+        position: relative;
+    
+    }
+    .contenedor-contacto {
+        width: 80%;
+        height: 500px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translateX(-50%)translateY(-50%);
+        text-align: center;
+    }
+    .contacto-iconos{
+        width: 95%;
+        height: 190px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    article {
+        margin: 35px;
+    }
+    .contacto img {
+        width: 100%;
+        height: 100%;  
+    }
+    .contenedor-contacto h1{
+        font-size: 38px;
+    }
+}

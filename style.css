@@ -44,8 +44,9 @@ header .contenedor{
     display: table;
 }
 
-/* @media (min-width:1024px){
-    *{  
-        background: url(./img/scritorio.jpeg) no-repeat;
+@media (min-width:1024px){
+    .contenedor{
+        width: 80%;
+        margin: auto; 
     }
-} */
+}
