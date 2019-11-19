@@ -47,3 +47,12 @@
     margin-top: 0px;
     font-size: 35px;
 }
+
+@media (min-width:1024px) { 
+    
+    #planeta-inicio{
+        width: 350px;
+        height: 450px;
+    }
+
+}

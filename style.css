@@ -43,3 +43,9 @@ section {
 header .contenedor{
     display: table;
 }
+
+/* @media (min-width:1024px){
+    *{  
+        background: url(./img/scritorio.jpeg) no-repeat;
+    }
+} */
