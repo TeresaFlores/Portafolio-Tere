@@ -52,6 +52,10 @@
     .inicio {
         width: 100%;
         height: 670px;  
+       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQggKnnggmOZRz5boyvID2zg_bS9UtNgPKwQOFxAouVT8kzTpp6) no-repeat;
+    }
+    #imagen{
+        display: none;
     }
     .inicio .contenedor {
         width: 55%;

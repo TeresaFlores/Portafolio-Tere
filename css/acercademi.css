@@ -26,7 +26,7 @@
     margin-top: 20px;
     /* background-color: red; */
     display: block;
-    border: 3px solid #E2E8E4;
+    /* border: 3px solid #E2E8E4; */
 }
 
 
@@ -53,14 +53,14 @@ h2{
     padding: 12px;
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
-    color: #E2E8E4;
+    color: black;
 }
 .acerca-de .contenedor img {
     width: 60%;
     height: 180px;
     margin-left: 90px;
 }
-/* 
+
 .carta-box {
     width: 250px;
     height: 300px;
@@ -93,7 +93,7 @@ h2{
 .cara.detras {
   transform: rotateY(180deg);
 }
-   */
+  
 
 @media (min-width:1024px){
   .contenedor-secciones-acerca{
