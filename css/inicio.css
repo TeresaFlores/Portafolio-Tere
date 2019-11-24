@@ -10,7 +10,7 @@
 
 .inicio .contenedor {
  position: absolute;
- top: 50%;
+ top: 40%;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  text-align: center;
@@ -18,9 +18,7 @@
 
 #planeta-inicio{
     width: 70%;
-    height: auto;
-    margin-top: 0px;
-    
+    height: auto;    
 }
 
 .inicio p {
@@ -44,21 +42,24 @@
 .inicio h5{
     font-family: 'Italianno', cursive;
     color:#d18cce;
-    margin-top: 0px;
     font-size: 35px;
 }
 
 @media (min-width:1024px) { 
     .inicio {
         width: 100%;
-        height: 670px;  
-       background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQggKnnggmOZRz5boyvID2zg_bS9UtNgPKwQOFxAouVT8kzTpp6) no-repeat;
+        height: 670px;   
+       background-image: url(../img/cielo5.jpg);
     }
     #imagen{
         display: none;
     }
     .inicio .contenedor {
         width: 55%;
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
        }
     
     #planeta-inicio{
@@ -66,7 +67,7 @@
         height: 460px;
     }
     .inicio h5{
-        font-size:43px;
+        font-size:45px;
     }
     .inicio h4{
         font-size: 43px;

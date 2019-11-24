@@ -24,9 +24,10 @@
     height: 310px;
     position: relative;
     margin-top: 20px;
-    /* background-color: red; */
+    background-color: #E5BEF9;
     display: block;
     /* border: 3px solid #E2E8E4; */
+    border-radius: 5px;
 }
 
 
@@ -54,13 +55,63 @@ h2{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: black;
+    /* background-color: yellow; */
+    margin: auto;
+    margin-top: 20px;
 }
 .acerca-de .contenedor img {
-    width: 60%;
-    height: 180px;
+    width: 40%;
+    height: 140px;
     margin-left: 90px;
 }
+.imagen{
+  background-color: white;
+   border: 3px solid #E5BEF9;
+   border-radius: 5px;
+}
+#nuve{
+  width: 50px;
+  height: 50px;
+}
+.habilidades{
+  /* background-color: blue; */
+  height: 346px;
+  
+}
+.habilidades h2{
+padding: 15px;
+}
+.iconos{
+  /* background-color: aqua; */
+  width: 80%;
+  height: 280px;
+  margin: auto;
+}
+.iconos img{
+  width: 55px;
+  height: 55px;
+  margin: 10px;
+}
 
+.soft-skills{
+  /* background-color: #d8bd38; */
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+.soft-skills img{
+  widows:90%;
+  height: 90px;
+ padding: 20px 5px 10px 5px;
+}
+.soft-skills h6{
+  /* background-color: red; */
+  padding: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+/* 
 .carta-box {
     width: 250px;
     height: 300px;
@@ -93,7 +144,11 @@ h2{
 .cara.detras {
   transform: rotateY(180deg);
 }
-  
+
+#remi{
+  width: 200px;
+  height: 280px;
+} */
 
 @media (min-width:1024px){
   .contenedor-secciones-acerca{
