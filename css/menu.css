@@ -58,6 +58,7 @@ cursor: pointer;
         transform: translateX(0%); 
         float: right;
         display: flex;
+        background: none;
     }
 
     .menu a{

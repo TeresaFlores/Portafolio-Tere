@@ -33,13 +33,11 @@
     justify-content: flex-end;
 }
 
-
-
-
 .proyectos .contenedor-secciones {
     width: 40%;
-    height: 120px;
+    height: 140px;
     font-size: 12px;
+    
 }
 .data-lovers .contenedor-secciones,
 .red-social .contenedor-secciones {
@@ -60,7 +58,7 @@
 .burger-queen .contenedor-secciones {
     top: 50%;
     right:20px;
-    transform: translateX(18%) translateY(-5%);
+    transform: translateX(18%) translateY(10%);
 }
 
 
@@ -91,10 +89,11 @@
     color: #d8bd38;
     font-family: 'Alegreya Sans', sans-serif;
 }
-.proyectos p {
+.proyectos .contenedor-secciones p {
+    width: 100%;
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
-    text-align: justify;
+    font-size: 14px;
+    /* text-align: justify; */
     color: white;
 } 
 
@@ -105,8 +104,9 @@ text-align: center;
 display: block;
 color:#d8bd38;
 text-decoration: none;
+margin: auto;
 padding: 5px;
-margin-top: 10px;
+/* margin-top: 10px; */
 border: 2px solid #d8bd38;
 font-family: 'Raleway', sans-serif;
 border-radius: 4px;
@@ -115,15 +115,17 @@ border-radius: 4px;
 @media (min-width:1024px) {
     .proyectos{
         height: 1500px;
+        background-image: url(../img/cielo5.jpg);;
     }
    .proyectos .contenedor{
     width: 80%;
     height: 1380px;
     margin: auto;
    } 
-   .proyectos img {
-    height:  1500px;
+   #imagen{
+    display: none;
     }
+   
     .proyectos h1{
         font-size: 38px;
     }
@@ -159,13 +161,16 @@ border-radius: 4px;
     }
 
     .proyectos .contenedor-secciones {
-        width: 30%;
-        height: 120px;
+        width: 35%;
+        height: 150px;
         font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 
-    .proyectos p {
-        font-size: 17px;
+    .proyectos .contenedor-secciones p{
+        font-size: 18px;
     } 
     .proyectos h5{
         font-size: 19px;
@@ -173,7 +178,13 @@ border-radius: 4px;
 
     .md-links .contenedor-secciones,
     .burger-queen .contenedor-secciones {
-    transform: translateX(-55%) translateY(25%);
-}
-
+    transform: translateX(-40%) translateY(25%);
+    }
+    .link{
+        width: 80px;
+        height: 40px;
+        font-size:16px;
+        margin-top: 10px;
+     
+    }
 }
