@@ -19,7 +19,7 @@
 
 .acerca-de .contenedor{
     width: 60%;
-    height: 310px;
+    height: 360px;
     position: relative;
     margin-top: 20px;
     background-color: #d18cce;
@@ -46,8 +46,8 @@ h2{
     margin-top: 20px;
 }
 .acerca-de .contenedor img {
-    width: 30%;
-    height: 110px;
+    width: auto;
+    height: 120px;
 }
 .imagen{
   background-color: white;
@@ -105,7 +105,14 @@ padding: 15px;
   font-size: 15px;
   text-align: center;
 }
-
+.CV{
+  margin: auto;
+  text-align: center;
+}
+#CV{
+  width: 80px;
+  height: 60px;
+ }
 
 @media (min-width:1024px){
   .acerca-de{
@@ -147,13 +154,13 @@ padding: 15px;
   }
   .acerca-de .contenedor img {
     width: auto;
-    height: 220px;
+    height: 257px;
   }
   .contenedor-secciones-acerca  .contenedor p {
     width: 30%;
     font-size: 15px;
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translateX(-110%) translateY(-50%);
   }
@@ -180,4 +187,16 @@ padding: 15px;
   .soft-skills h6{
     font-size: 18px;
   }
+  .CV{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-150%) translateY(-50%);
+  }
+  #CV{
+    width: 100px;
+    height: 80px;
+   }
 }
