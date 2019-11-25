@@ -18,8 +18,8 @@
 }
 
 .acerca-de .contenedor{
-    width: 60%;
-    height: 360px;
+    width: 67%;
+    height: 370px;
     position: relative;
     margin-top: 20px;
     background-color: #d18cce;
@@ -43,11 +43,10 @@ h2{
     font-size: 14px;
     color: black;
     margin: auto;
-    margin-top: 20px;
 }
 .acerca-de .contenedor img {
     width: auto;
-    height: 120px;
+    height: 140px;
 }
 .imagen{
   background-color: white;
@@ -73,8 +72,8 @@ padding: 15px;
   flex-wrap: wrap;
 }
 .iconos article{
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   margin: 10px;
  
 }
@@ -108,6 +107,12 @@ padding: 15px;
 .CV{
   margin: auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.CV h4{
+  display: flex;
+  align-items: center;
 }
 #CV{
   width: 80px;
