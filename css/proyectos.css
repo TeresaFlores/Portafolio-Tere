@@ -40,7 +40,8 @@
     
 }
 .data-lovers .contenedor-secciones,
-.red-social .contenedor-secciones {
+.red-social .contenedor-secciones,
+.cargadores .contenedor-secciones {
     position: absolute;
     top: 50%;
     left: 74%;
@@ -63,7 +64,8 @@
 
 
 .data-lovers,
-.red-social{
+.red-social,
+.cargadores{
     margin-top: 50px;
     position: relative;
 }
@@ -114,12 +116,12 @@ border-radius: 4px;
 
 @media (min-width:1024px) {
     .proyectos{
-        height: 1500px;
+        height: 1000px;
         background-image: url(../img/cielo5.jpg);;
     }
    .proyectos .contenedor{
     width: 80%;
-    height: 1380px;
+    height: 900px;
     margin: auto;
    } 
    #imagen{
@@ -136,7 +138,8 @@ border-radius: 4px;
     }
 
     .proyectos .red-social img,
-    .proyectos .data-lovers img{
+    .proyectos .data-lovers img,
+    .proyectos .cargadores img{
         width: 55%;
         height: 85%;
         position: absolute;
