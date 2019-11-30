@@ -48,7 +48,7 @@
 @media (min-width:1024px) { 
     .inicio {
         width: 100%;
-        height: 670px;   
+        height: 750px;   
        background-image: url(../img/cielo5.jpg);
     }
     #imagen{
